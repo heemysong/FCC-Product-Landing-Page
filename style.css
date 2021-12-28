@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+}
+
+nav {
+    background-image: linear-gradient(to left, #BBBEFE, lavender);
+    border-bottom: 10px solid #b29e83;
+    width: 100vw;
+    position: fixed;
+}
+
+#shop-name {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    color: snow;
+    padding: 10px;
+    margin: 30px;
+    border: 5px solid snow;
+    border-radius: 20px;
+}
+
+#header-img {
+    width: 75px;
+    position: absolute;
+    padding: 10px;
+    margin-left: 210px;
+    margin-top: 28px;
+    border: 1px solid snow;
+    border-radius: 20px;
+}
+
+#header-img:hover {
+    border-color: rgb(183, 183, 231);
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+}
+
+nav li {
+    margin: 20px;
+    font-size: 1.2rem;;
+}
+
+nav a {
+    text-decoration: none;
+    color: snow;
+}
+
+nav a:hover {
+    color: #E0BFB8;
+}
+
+main {
+    margin-top: 170px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+h1 {
+    color: rgb(183, 183, 231);
+    font-size: 2.5rem;
+}
+
+#front-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.cake {
+    width: 320px;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+h2 {
+    color: rgb(183, 183, 231);
+    font-size: 2.5rem;
+    margin-top: 60px;
+}
+
+#dc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dreamcakes {
+    width: 320px;
+    margin: 5px;
+}
+
+#mt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.minitea {
+    width: 320px;
+    margin: 5px;
+}
+
+#about-page {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#about-img {
+    width: 50vw;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+#video {
+    margin-top: 20px;
+}
+
+#contact {
+    margin-top: 20px;
+}
+
+#form {
+    margin-top: 10px;
+}
+
+#email {
+    padding: 10px;
+    margin-top: 10px;
+    width: 250px;
+    border: 3px solid rgb(183, 183, 231);
+    font-size: 0.9rem;
+}
+
+#submit {
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid rgb(183, 183, 231);
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+#submit:hover {
+    color: rgb(147, 147, 212);
+}
+
+footer {
+    margin-top: 20px;
+    width: 100vw;
+    height: 100px;
+    background-color: #b29e83;
+    color: snow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 850px) {
+    nav ul {
+        margin-top: 100px;
+        justify-content: center;
+        text-align: right;
+    }
+
+    nav li {
+        font-size: 1rem;
+        margin: 10px;
+    }
+
+    main {
+        margin-top: 250px;
+    }
+
+    #video {
+        width: 350px;
+    }
+}
